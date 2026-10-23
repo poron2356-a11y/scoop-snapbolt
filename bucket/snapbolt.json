@@ -1,0 +1,27 @@
+{
+    "description":  "Fast Screenshot, MP4/GIF Screen Recorder, Offline QR/OCR \u0026 Color Picker for Windows",
+    "architecture":  {
+                         "64bit":  {
+                                       "hash":  "7452f5d8e41ac3982888476cec178ab033f042eec8027270506ff499dff89c58",
+                                       "url":  "https://github.com/poron2356-a11y/SnapBolt/releases/download/v2.2.0/SnapBolt_Portable.zip"
+                                   }
+                     },
+    "shortcuts":  [
+                      "SnapBolt.exe",
+                      "SnapBolt"
+                  ],
+    "version":  "2.2.0",
+    "autoupdate":  {
+                       "architecture":  {
+                                            "64bit":  {
+                                                          "url":  "https://github.com/poron2356-a11y/SnapBolt/releases/download/v$version/SnapBolt_Portable.zip"
+                                                      }
+                                        }
+                   },
+    "license":  "Freeware",
+    "homepage":  "https://snapbolt-license.snapbolt.workers.dev/r/8Y9PHK",
+    "checkver":  {
+                     "github":  "https://github.com/poron2356-a11y/SnapBolt"
+                 },
+    "bin":  "SnapBolt.exe"
+}
