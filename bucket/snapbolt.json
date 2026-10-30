@@ -1,29 +1,29 @@
-﻿{
-    "version":  "2.5.2",
-    "description":  "The \u0027CleanShot X for Windows\u0027 - Fast Screenshot, MP4/GIF Screen Recorder, 100% Offline QR/OCR \u0026 Color Picker",
-    "homepage":  "https://snapbolt.dev",
-    "license":  "Freeware",
-    "architecture":  {
-                         "64bit":  {
-                                       "hash":  "431cfe04118e3c640d778603679297a3f4e337672fe0326a0656da3b9965c98d",
-                                       "url":  "https://github.com/poron2356-a11y/SnapBolt/releases/download/v2.4.1/SnapBolt_Portable.zip"
-                                   }
-                     },
-    "bin":  "SnapBolt.exe",
-    "shortcuts":  [
-                      [
-                          "SnapBolt.exe",
-                          "SnapBolt"
-                      ]
-                  ],
-    "checkver":  {
-                     "github":  "https://github.com/poron2356-a11y/SnapBolt"
-                 },
-    "autoupdate":  {
-                       "architecture":  {
-                                            "64bit":  {
-                                                          "url":  "https://github.com/poron2356-a11y/SnapBolt/releases/download/v$version/SnapBolt_Portable.zip"
-                                                      }
-                                        }
-                   }
+{
+  "version": "2.5.2",
+  "description": "The 'CleanShot X for Windows' - Fast Screenshot, Full-Page Scrolling Capture, MP4/GIF Screen Recorder, 100% Offline QR/OCR & Color Picker",
+  "homepage": "https://snapbolt.dev",
+  "license": "Freeware",
+  "architecture": {
+    "64bit": {
+      "url": "https://github.com/poron2356-a11y/SnapBolt/releases/download/v2.5.2/SnapBolt_v1.0.0_win-x64.zip",
+      "hash": "1c2cf2d646e1a3ffaf5ebc40ff0cfe39bf7cc8746df0eed54c90ae0ef7e55974"
+    }
+  },
+  "bin": "SnapBolt.exe",
+  "shortcuts": [
+    [
+      "SnapBolt.exe",
+      "SnapBolt"
+    ]
+  ],
+  "checkver": {
+    "github": "https://github.com/poron2356-a11y/SnapBolt"
+  },
+  "autoupdate": {
+    "architecture": {
+      "64bit": {
+        "url": "https://github.com/poron2356-a11y/SnapBolt/releases/download/v$version/SnapBolt_v1.0.0_win-x64.zip"
+      }
+    }
+  }
 }
