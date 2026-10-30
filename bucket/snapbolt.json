@@ -1,27 +1,29 @@
 {
+    "version":  "2.4.1",
     "description":  "The \u0027CleanShot X for Windows\u0027 - Fast Screenshot, MP4/GIF Screen Recorder, 100% Offline QR/OCR \u0026 Color Picker",
+    "homepage":  "https://snapbolt.dev",
+    "license":  "Freeware",
     "architecture":  {
                          "64bit":  {
-                                       "hash":  "06d82f517022c70e12b74c9d3f0996ac08865cfc8e1d48f7cdaf42d0a5fc7b03",
-                                       "url":  "https://github.com/poron2356-a11y/SnapBolt/releases/download/v2.3.1/SnapBolt_Portable.zip"
+                                       "hash":  "431cfe04118e3c640d778603679297a3f4e337672fe0326a0656da3b9965c98d",
+                                       "url":  "https://github.com/poron2356-a11y/SnapBolt/releases/download/v2.4.1/SnapBolt_Portable.zip"
                                    }
                      },
+    "bin":  "SnapBolt.exe",
     "shortcuts":  [
-                      "SnapBolt.exe",
-                      "SnapBolt"
+                      [
+                          "SnapBolt.exe",
+                          "SnapBolt"
+                      ]
                   ],
-    "version":  "2.3.1",
+    "checkver":  {
+                     "github":  "https://github.com/poron2356-a11y/SnapBolt"
+                 },
     "autoupdate":  {
                        "architecture":  {
                                             "64bit":  {
                                                           "url":  "https://github.com/poron2356-a11y/SnapBolt/releases/download/v$version/SnapBolt_Portable.zip"
                                                       }
                                         }
-                   },
-    "license":  "Freeware",
-    "homepage":  "https://snapbolt.dev/r/8Y9PHK",
-    "checkver":  {
-                     "github":  "https://github.com/poron2356-a11y/SnapBolt"
-                 },
-    "bin":  "SnapBolt.exe"
+                   }
 }
